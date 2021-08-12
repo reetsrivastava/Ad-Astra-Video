@@ -1,0 +1,73 @@
+/* For Login and Signup */
+
+.form-container {
+    border: 2px solid #142d4c;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: fit-content;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form h1 {
+    color: #385170;
+}
+
+.form-label {
+    margin: 2rem;
+}
+
+.form-label label {
+    padding: 0.5rem 1rem;
+    margin: auto 0.5rem;
+    background-color: #385170;
+    color: #fff;
+}
+
+.form-label input {
+    border: 0px solid;
+    padding: 0.5rem 1rem;
+    font-size: 15px;
+    background-color: #9fd3c7;
+    color: #142d4c;
+}
+
+.form-label input:focus {
+    outline: none;
+    border-bottom: 2px solid #142d4c;
+}
+
+.btn-auth {
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    color: #fff;
+    background-color: #385170;
+    font-size: 20px;
+    border: 0px solid;
+    width: 70%;
+}
+
+.btn-auth:hover {
+    background-color: #142d4c;
+    cursor: pointer;
+}
+
+.form-message {
+    color: #142d4c;
+    background-color: #fff;
+    padding: 0.5rem;
+}
+
+.message-link  {
+    text-decoration: none;
+    margin: auto 0.25rem;
+    color: #385170;
+    border: 2px solid #385170;
+    padding: 0.25rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.message-link:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,60 @@
+/* For VideoPlayer */
+
+.video-player-container {
+    margin: 0.5rem;
+    padding: 1rem;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+}
+
+.player {
+    border-bottom: 2px solid #142d4c;
+    height: 50vh;
+}
+
+.heading {
+    color: #142d4c;
+    width: fit-content;
+}
+
+.text {
+    font-size: large;
+    background-color: #142d4c;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.category {
+    background-color: #9fd3c7;
+    padding: 0.25rem;
+    border: 1px solid #9fd3c7;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.btn-controls {
+    text-align: right;
+    margin: 0.5rem;
+}
+
+.btn-controls span {
+    padding: 0.5rem;
+    cursor: pointer;
+    border: 1px solid #142d4c;
+    border-radius: 5px;
+    color: #142d4c;
+    margin: auto 0.25rem;
+}
+
+.btn-controls span:hover {
+    background-color: #9fd3c7;
+}
+
+@media (max-width: 420px) {
+    .btn-controls span{
+        display: block;
+        width: fit-content;
+        margin: 1rem auto;
+    }
+}

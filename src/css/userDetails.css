@@ -1,0 +1,58 @@
+/* For userDetails.jsx  */
+
+.user-container {
+    margin: 3rem auto;
+    width: fit-content;
+    padding: 2rem;
+    border: 3px solid #142d4c;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #fff;
+    padding: 0.5rem;
+    background-color: #142d4c;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.username {
+    font-size: 20px;
+    border-bottom: 2px solid #142d4c;
+    padding: 0.5rem;
+    background-color: #9fd3c7;
+    color: #142d4c;
+}
+
+.username strong {
+    color: gray;
+}
+
+.user-email {
+    color: #142d4c;
+    padding: 0.5rem;
+    background-color: gray;
+    font-size: 20px;
+    border-bottom: 2px solid #142d4c;
+}
+
+.user-email i {
+    color: #9fd3c7;
+}
+
+.btn-logout {
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    width: 100%;
+    color: #142d4c;
+    border: 2px solid #142d4c;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.btn-logout:hover {
+    cursor: pointer;
+    background-color: #9fd3c7;
+}

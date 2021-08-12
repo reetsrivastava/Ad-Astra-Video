@@ -1,0 +1,11 @@
+/* For Videos.jsx */
+
+.videos-container {
+    padding: 1rem;
+    background-color: #ececec;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
