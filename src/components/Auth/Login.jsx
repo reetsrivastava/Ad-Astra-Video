@@ -15,7 +15,7 @@ export function Login() {
     const loginHandler = async (e) => {
         e.preventDefault();
         await checkUserPass(refineUserData(userIdentifier), password);
-        navigate(state?.from ? state.from : "/user");
+        navigate(state?.from ? state.from : "/");
     }
 
     useEffect(() => {
