@@ -8,9 +8,10 @@ import "../../css/userDetails.css";
 
 export function UserDetails() {
     const { 
-        userData: { username, email },
          logOut
     } = useAuth();
+    
+    const { username, email } = JSON.parse(localStorage.getItem("user"));
 
     const { dispatchplaylist } = usePlaylist();
     const { dispatchwatchlist } = useWatchList();
